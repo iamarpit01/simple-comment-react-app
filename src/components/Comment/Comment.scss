@@ -1,0 +1,26 @@
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+
+    &:last-child{
+        border-bottom: none;
+    }
+
+    .comment__details{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    button{
+        border: none;
+        background-color: #0000ff;
+        color: #ffffff;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+}
